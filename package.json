@@ -8,5 +8,11 @@
   "private": true,
   "dependencies": {
     "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "scripts:generateRanking": "bun run src/scripts/generateRanking.ts"
   }
 }

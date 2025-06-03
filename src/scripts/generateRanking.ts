@@ -1,8 +1,8 @@
 import { sortBy, sum } from 'lodash-es'
-import { ChampionshipRaces, ChampionshipSpeed } from './championshipRanking/ChampionshipRaces'
-import { parseChampionshipRaces } from './championshipRanking/parseChampionshipRaces'
-import { rankingData } from './championshipRanking/rankingData'
-import { truthy } from './utils/truthy'
+import { ChampionshipRaces, ChampionshipSpeed } from '../championshipRanking/ChampionshipRaces'
+import { parseChampionshipRaces } from '../championshipRanking/parseChampionshipRaces'
+import { rankingData } from '../championshipRanking/rankingData'
+import { truthy } from '../utils/truthy'
 
 function main() {
   const races = parseChampionshipRaces(rankingData)
