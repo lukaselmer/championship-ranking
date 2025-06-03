@@ -1,0 +1,12 @@
+{
+  "name": "championshipranking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lukaselmer/championship-ranking.git",
+  "author": "Lukas Elmer <lukas.elmer@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
