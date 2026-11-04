@@ -14,5 +14,6 @@
   },
   "scripts": {
     "scripts:generateRanking": "bun run src/scripts/generateRanking.ts"
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }
